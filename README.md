@@ -1,7 +1,7 @@
 # Yelp: Predicting Restaurants' Success Based on Foot Traffic and Attribute Patterns.
 The purpose of the **json_to_csv** notebook is to gather data from the [Yelp website](https://www.yelp.com/dataset), and convert it into a more usable format. The original dataset is nearly 10GB of JSON files. Since for the scope of this project we are only interested in restaurant data, we are going to convert the files into csv format, and make relevant merges and deletions, in order to make the analysis more memory-efficient. These files will be utilized in the next notebook for exploratory data analysis and modeling. <br>
 The purpose of the **EDA** notebook is exploratory data analysis. Data is cleaned, preprocessed, and the sample space is reduced to first U.S. restaurants only, and then Las Vegas restaurants. Here we discover trends and patterns in our data, as well as creating some visuals to illustrate them. In this notebook I dive into feature engineering as well. <br>
-In the **Modeling** notebook we work on some predictiv modeling. Here we dive into Logistic regression, KNN, SVM and Random Forest. <br>
+In the **Modeling** notebook we work on some predictive modeling. Here we dive into Logistic regression, KNN, SVM and Random Forest. <br>
 **Note:** code for the SVM chapter is borrowed from [@jasontdean]('http://jasontdean.com/python/Yelp.html')
 **************************************
 Yelp Dataset comes with 5 json files: business, checkin, user, review and tip. We convert them into the csv files. for further cleaning and EDA. <br>
